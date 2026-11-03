@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 249.936,
+    "vectorized_ms": 0.983,
+    "speedup": 254.26
+  },
+  "threads": {
+    "1": 2709.644,
+    "2": 2190.477,
+    "4": 2345.048,
+    "8": 2736.945
+  },
+  "devices": {
+    "cpu_ms": 459398.5,
+    "gpu_ms": 12667.9
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4932,
+    "param_count": 4935680
+  },
+  "sample": "\n\nSway BY:\nHollo, thee where hell! tell to sea afford\nWherefore these by soverey aboide,\nAnd our Maria, that the is prosonioly,\nAnd how that in to show offend the cause\nFriend fivish'd my did behend ti",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecom-clouds-eurecomgpt/model.safetensors"
+  }
+}
